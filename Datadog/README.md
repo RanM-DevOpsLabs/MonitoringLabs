@@ -155,3 +155,5 @@ You now have:
 - Full observability on core components
 - A running NGINX pod with auto-discovery
 - Metrics flowing into Datadog UI
+
+![monitoring](ddmonitoring.jpg)
