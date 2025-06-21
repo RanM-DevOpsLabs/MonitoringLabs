@@ -1,5 +1,5 @@
 datadog:
-  apiKey: 1372c8b97787ee91f007be1097a657d8
+  apiKey: <YOUR_DATADOG_API_KEY>
   site: us5.datadoghq.com
   logs:
     enabled: true
