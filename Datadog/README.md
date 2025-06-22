@@ -9,6 +9,15 @@ This guide walks through setting up full observability using Datadog on a local 
 - Viewing metrics in the Datadog UI
 
 ---
+## About Data Dog Agent:
+From Datadog documentation: <br>
+<i>The Datadog Agent is an open source software that runs on a host. It collects metrics and events from the host and sends them to Datadog. It can run on your local hosts (Windows, macOS), containerized environments (Docker, Kubernetes), and in on-premises data centers.</i>
+
+Datadog agent is running as a [daemonset](https://kubernetes.io/do.cs/concepts/workloads/controllers/daemonset/) ensuring metrics are collected fron every node
+
+
+With the agents help we will be able to observe dashboard from [metrics]((https://kubernetes.io/docs/reference/instrumentation/metrics/)) that are being exposed by default from various k8s compoenets. 
+
 
 ## 1. Create a Datadog Account & API Key
 
