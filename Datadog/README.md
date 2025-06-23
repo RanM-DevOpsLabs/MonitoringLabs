@@ -155,6 +155,14 @@ kubectl apply -f nginx-ad.yaml
 - Check **Integrations > NGINX** for service-level metrics
 - View **Cluster Explorer** and **Live Container View**
 
+## 9. 🚨 Add Monitoring
+
+- We can configure to get notified on a variety of cases regarding our service
+- Integrations in Datadog allows us to configure an out-of-the-box alerts for specific cases
+- I've used the a metric based monitor: `nginx.net.request_per_s` and set a very low threshold just for the demonstration purposes.
+- You can see the result, an alert was triggered, and (as I configured) - it sends an email:
+
+![nginx-alert](nginx-alert.jpg)
 ---
 
 ## ✅ Done!
