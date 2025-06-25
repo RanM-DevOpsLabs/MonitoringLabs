@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  
+  prometheus:
+    container_name: prometheus
+    image: bitnami/prometheus:3.4.1
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./configurations/prometheus.yml:/opt/bitnami/prometheus/conf/prometheus.yml
+    networks:
+      - prometheus-network
+  
+  node-exporter:
+    container_name: node-exporter
+    image: bitnami/node-exporter:1.9.1
+    ports:
+      - "9100:9100"
+    networks:
+      - prometheus-network
+
+networks:
+  prometheus-network:
+    driver: bridge
