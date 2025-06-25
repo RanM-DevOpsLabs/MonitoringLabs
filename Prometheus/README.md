@@ -1,3 +1,4 @@
+ ![prom](prometheus.png)
 # Prometheus & Node Exporter Monitoring Setup
 
 This directory contains a simple yet powerful monitoring setup using Prometheus and Node Exporter in Docker containers. This setup allows you to monitor both Prometheus itself and system-level metrics from the host machine.
