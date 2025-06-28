@@ -1,1 +1,6 @@
 api_key.txt
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+*.tfplan
