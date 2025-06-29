@@ -1,3 +1,4 @@
+![grafana-icon](grafana.jpg)
 # Grafana Volume Provisioning Setup
 
 This directory contains the configuration for automatically provisioning Grafana datasources and dashboards using Docker volume mounts.
